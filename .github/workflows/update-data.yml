@@ -1,0 +1,52 @@
+name: Update item and quest tables
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, 06:17 UTC
+  workflow_dispatch:        # "Run workflow" button for a new wipe / patch
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    working-directory: eft-v2-data
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Each tool exits non-zero when its source is down, which stops the run before anything is published:
+      # players keep the last good tables.
+      - name: Build item table
+        run: |
+          mkdir -p build
+          python tools/fetch_items.py build/eft_items.txt
+          python tools/fix_eft_items.py build/eft_items.txt
+
+      - name: Build quest table
+        run: python tools/fetch_quests.py build/eft_quests.txt
+
+      - name: Publish if changed
+        run: |
+      - name: Build item table
+        run: |
+          mkdir -p build
+          python tools/fetch_items.py build/eft_items.txt
+          python tools/fix_eft_items.py build/eft_items.txt
+
+      - name: Build quest table
+        run: python tools/fetch_quests.py build/eft_quests.txt
+
+      - name: Publish if changed
+        run: |
+          cp build/eft_items.txt build/eft_quests.txt data/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || { git commit -m "Update item and quest tables"; git push; }
