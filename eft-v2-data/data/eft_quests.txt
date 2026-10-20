@@ -16,32 +16,32 @@ O	59674eb386f774539f14813a	5968929e86f7740d121082d3	1	findQuestItem	Locate and o
 Q	59674eb386f774539f14813a	5968929e86f7740d121082d3	591092ef86f7747bb8703422	0022	bigmap	-202.88	7.69	-102.40
 I	59674eb386f774539f14813a	5968929e86f7740d121082d3	591092ef86f7747bb8703422
 O	59674eb386f774539f14813a	59674fe586f7744f4e358aa2	1	plantQuestItem	Stash the package in the break room on the 2nd floor near Gate 3 on Factory
-Z	59674eb386f774539f14813a	59674fe586f7744f4e358aa2	factory4_night	41.74	5.45	40.82	plantQuestItem	Stash the package in the break room on the 2nd floor near Gate 3 on Factory
-P	38.46	5.45	39.50
-P	45.02	5.45	39.50
-P	45.02	5.45	42.14
-P	38.46	5.45	42.14
 Z	59674eb386f774539f14813a	59674fe586f7744f4e358aa2	factory4_day	41.74	5.45	40.82	plantQuestItem	Stash the package in the break room on the 2nd floor near Gate 3 on Factory
 P	38.46	4.49	42.14
 P	45.02	4.49	42.14
 P	45.02	4.49	39.50
 P	38.46	4.49	39.50
+Z	59674eb386f774539f14813a	59674fe586f7744f4e358aa2	factory4_night	41.74	5.45	40.82	plantQuestItem	Stash the package in the break room on the 2nd floor near Gate 3 on Factory
+P	38.46	5.45	39.50
+P	45.02	5.45	39.50
+P	45.02	5.45	42.14
+P	38.46	5.45	42.14
 I	59674eb386f774539f14813a	59674fe586f7744f4e358aa2	591092ef86f7747bb8703422
 T	5967530a86f77462ba22226b	Bad Rep Evidence	Prapor	
 O	5967530a86f77462ba22226b	5968943f86f7740d137ebfc2	1	findQuestItem	Locate and obtain Secure Folder 0031 in one of the bunkhouses on Customs
 Q	5967530a86f77462ba22226b	5968943f86f7740d137ebfc2	5938188786f77474f723e87f	0031	bigmap	204.07	4.70	12.40
 I	5967530a86f77462ba22226b	5968943f86f7740d137ebfc2	5938188786f77474f723e87f
 O	5967530a86f77462ba22226b	5a3fbdb086f7745a554f0c31	1	visit	Gain access to the locked room in the office hallway on the third floor on Factory
-Z	5967530a86f77462ba22226b	5a3fbdb086f7745a554f0c31	factory4_night	30.13	8.72	38.89	visit	Gain access to the locked room in the office hallway on the third floor on Factory
-P	28.54	8.72	37.08
-P	31.76	8.72	37.11
-P	31.73	8.72	40.70
-P	28.50	8.72	40.67
 Z	5967530a86f77462ba22226b	5a3fbdb086f7745a554f0c31	factory4_day	30.13	8.72	38.89	visit	Gain access to the locked room in the office hallway on the third floor on Factory
 P	28.50	8.22	40.67
 P	31.73	8.22	40.70
 P	31.76	8.22	37.11
 P	28.54	8.22	37.08
+Z	5967530a86f77462ba22226b	5a3fbdb086f7745a554f0c31	factory4_night	30.13	8.72	38.89	visit	Gain access to the locked room in the office hallway on the third floor on Factory
+P	28.54	8.72	37.08
+P	31.76	8.72	37.11
+P	31.73	8.72	40.70
+P	28.50	8.72	40.67
 O	5967530a86f77462ba22226b	5968941f86f7740d1570bbd2	1	findItem	Obtain the Portable bunkhouse key
 I	5967530a86f77462ba22226b	5968941f86f7740d1570bbd2	5938144586f77473c2087145
 O	5967530a86f77462ba22226b	5968948986f7740d121082d4	1	giveQuestItem	Hand over the folder
@@ -825,27 +825,27 @@ T	5a68667486f7742607157d28	Health Care Privacy - Part 4	Therapist
 O	5a68667486f7742607157d28	6a606eb43eb95a13ff6aa1f3	1	experience	Gain the Fatigue status effect (by exhausting leg stamina) and maintain it for 8 minutes
 T	5a68669a86f774255929b4d4	Health Care Privacy - Part 5	Therapist	factory4_night
 O	5a68669a86f774255929b4d4	5a6879be86f774284429b1bb	1	visit	Locate the drop spot on night-time Factory
-Z	5a68669a86f774255929b4d4	5a6879be86f774284429b1bb	factory4_night	24.61	9.17	39.08	visit	Locate the drop spot on night-time Factory
-P	22.61	9.17	37.08
-P	26.61	9.17	37.08
-P	26.61	9.17	41.08
-P	22.61	9.17	41.08
 Z	5a68669a86f774255929b4d4	5a6879be86f774284429b1bb	factory4_day	24.61	9.17	39.08	visit	Locate the drop spot on night-time Factory
 P	22.61	8.17	37.08
 P	22.61	8.17	41.08
 P	26.61	8.17	41.08
 P	26.61	8.17	37.08
-O	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	3	plantItem	Stash any Gunpowder in the designated spot
-Z	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	factory4_night	24.61	9.17	39.08	plantItem	Stash any Gunpowder in the designated spot
+Z	5a68669a86f774255929b4d4	5a6879be86f774284429b1bb	factory4_night	24.61	9.17	39.08	visit	Locate the drop spot on night-time Factory
 P	22.61	9.17	37.08
 P	26.61	9.17	37.08
 P	26.61	9.17	41.08
 P	22.61	9.17	41.08
+O	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	3	plantItem	Stash any Gunpowder in the designated spot
 Z	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	factory4_day	24.61	9.17	39.08	plantItem	Stash any Gunpowder in the designated spot
 P	22.61	8.17	37.08
 P	22.61	8.17	41.08
 P	26.61	8.17	41.08
 P	26.61	8.17	37.08
+Z	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	factory4_night	24.61	9.17	39.08	plantItem	Stash any Gunpowder in the designated spot
+P	22.61	9.17	37.08
+P	26.61	9.17	37.08
+P	26.61	9.17	41.08
+P	22.61	9.17	41.08
 I	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	590c5a7286f7747884343aea
 I	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	5d6fc87386f77449db3db94e
 I	5a68669a86f774255929b4d4	5a687a1c86f7745f2152168c	5d6fc78386f77449d825f9dc
@@ -863,28 +863,28 @@ T	5ac244eb86f7741356335af1	Gunsmith - M4A1	Mechanic
 O	5ac244eb86f7741356335af1	5accdfdb86f77412265cbfc9	1	buildWeapon	Modify an M4A1 to comply with the given specifications
 T	5ac345dc86f774288030817f	Playing the Market	Mechanic	factory4_day
 O	5ac345dc86f774288030817f	5ac7a4ba86f77409f3423628	1	plantItem	Fix the first control board with a Toolset on Factory
-Z	5ac345dc86f774288030817f	5ac7a4ba86f77409f3423628	factory4_night	68.19	1.06	-7.38	plantItem	Fix the first control board with a Toolset on Factory
-P	67.69	1.06	-8.38
-P	68.69	1.06	-8.38
-P	68.69	1.06	-6.38
-P	67.69	1.06	-6.38
 Z	5ac345dc86f774288030817f	5ac7a4ba86f77409f3423628	factory4_day	68.19	1.06	-7.38	plantItem	Fix the first control board with a Toolset on Factory
 P	67.69	0.06	-8.38
 P	67.69	0.06	-6.38
 P	68.69	0.06	-6.38
 P	68.69	0.06	-8.38
+Z	5ac345dc86f774288030817f	5ac7a4ba86f77409f3423628	factory4_night	68.19	1.06	-7.38	plantItem	Fix the first control board with a Toolset on Factory
+P	67.69	1.06	-8.38
+P	68.69	1.06	-8.38
+P	68.69	1.06	-6.38
+P	67.69	1.06	-6.38
 I	5ac345dc86f774288030817f	5ac7a4ba86f77409f3423628	590c2e1186f77425357b6124
 O	5ac345dc86f774288030817f	5ac7a51a86f774738a4ffc96	1	plantItem	Fix the second control board with a Toolset on Factory
-Z	5ac345dc86f774288030817f	5ac7a51a86f774738a4ffc96	factory4_night	60.08	1.09	-48.39	plantItem	Fix the second control board with a Toolset on Factory
-P	59.58	1.09	-49.39
-P	60.58	1.09	-49.39
-P	60.58	1.09	-47.39
-P	59.58	1.09	-47.39
 Z	5ac345dc86f774288030817f	5ac7a51a86f774738a4ffc96	factory4_day	60.08	1.09	-48.39	plantItem	Fix the second control board with a Toolset on Factory
 P	59.58	0.09	-49.39
 P	59.58	0.09	-47.39
 P	60.58	0.09	-47.39
 P	60.58	0.09	-49.39
+Z	5ac345dc86f774288030817f	5ac7a51a86f774738a4ffc96	factory4_night	60.08	1.09	-48.39	plantItem	Fix the second control board with a Toolset on Factory
+P	59.58	1.09	-49.39
+P	60.58	1.09	-49.39
+P	60.58	1.09	-47.39
+P	59.58	1.09	-47.39
 I	5ac345dc86f774288030817f	5ac7a51a86f774738a4ffc96	590c2e1186f77425357b6124
 T	5ac3460c86f7742880308185	Farming - Part 2	Mechanic	
 O	5ac3460c86f7742880308185	5ac502a786f7740bde1b000c	2	findItem	Find Power cords in raid
@@ -998,49 +998,49 @@ I	5ac3475486f7741d6224abd3	5ac5eff886f7740f43322559	573476d324597737da2adc13
 I	5ac3475486f7741d6224abd3	5ac5eff886f7740f43322559	5734770f24597738025ee254
 T	5ac3477486f7741d651d6885	Scout	Mechanic	factory4_day
 O	5ac3477486f7741d651d6885	5ac61a8a86f7743a8d663c77	1	visit	Locate the first Factory extraction
-Z	5ac3477486f7741d651d6885	5ac61a8a86f7743a8d663c77	factory4_night	66.67	-1.68	-28.88	visit	Locate the first Factory extraction
-P	65.62	-1.68	-29.28
-P	67.61	-1.68	-29.47
-P	67.71	-1.68	-28.48
-P	65.72	-1.68	-28.28
 Z	5ac3477486f7741d651d6885	5ac61a8a86f7743a8d663c77	factory4_day	66.67	-1.68	-28.88	visit	Locate the first Factory extraction
 P	67.61	-2.68	-29.47
 P	65.62	-2.68	-29.28
 P	65.72	-2.68	-28.28
 P	67.71	-2.68	-28.48
+Z	5ac3477486f7741d651d6885	5ac61a8a86f7743a8d663c77	factory4_night	66.67	-1.68	-28.88	visit	Locate the first Factory extraction
+P	65.62	-1.68	-29.28
+P	67.61	-1.68	-29.47
+P	67.71	-1.68	-28.48
+P	65.72	-1.68	-28.28
 O	5ac3477486f7741d651d6885	5ac61ab986f7746e352cec8c	1	visit	Locate the second Factory extraction
-Z	5ac3477486f7741d651d6885	5ac61ab986f7746e352cec8c	factory4_night	-53.11	2.29	58.19	visit	Locate the second Factory extraction
-P	-54.11	2.29	57.19
-P	-52.11	2.29	57.19
-P	-52.11	2.29	59.19
-P	-54.11	2.29	59.19
 Z	5ac3477486f7741d651d6885	5ac61ab986f7746e352cec8c	factory4_day	-53.11	2.29	58.19	visit	Locate the second Factory extraction
 P	-54.11	1.29	57.19
 P	-54.11	1.29	59.19
 P	-52.11	1.29	59.19
 P	-52.11	1.29	57.19
+Z	5ac3477486f7741d651d6885	5ac61ab986f7746e352cec8c	factory4_night	-53.11	2.29	58.19	visit	Locate the second Factory extraction
+P	-54.11	2.29	57.19
+P	-52.11	2.29	57.19
+P	-52.11	2.29	59.19
+P	-54.11	2.29	59.19
 O	5ac3477486f7741d651d6885	5ac61adf86f774741c1bf096	1	visit	Locate the third Factory extraction
-Z	5ac3477486f7741d651d6885	5ac61adf86f774741c1bf096	factory4_night	59.70	1.16	56.98	visit	Locate the third Factory extraction
-P	57.70	1.16	54.98
-P	61.70	1.16	54.98
-P	61.70	1.16	58.98
-P	57.70	1.16	58.98
 Z	5ac3477486f7741d651d6885	5ac61adf86f774741c1bf096	factory4_day	59.70	1.16	56.98	visit	Locate the third Factory extraction
 P	57.70	0.16	54.98
 P	57.70	0.16	58.98
 P	61.70	0.16	58.98
 P	61.70	0.16	54.98
+Z	5ac3477486f7741d651d6885	5ac61adf86f774741c1bf096	factory4_night	59.70	1.16	56.98	visit	Locate the third Factory extraction
+P	57.70	1.16	54.98
+P	61.70	1.16	54.98
+P	61.70	1.16	58.98
+P	57.70	1.16	58.98
 O	5ac3477486f7741d651d6885	63a865ce1943b749b5021f86	1	visit	Locate the fourth Factory extraction
-Z	5ac3477486f7741d651d6885	63a865ce1943b749b5021f86	factory4_night	-18.40	1.16	-49.02	visit	Locate the fourth Factory extraction
-P	-20.40	1.16	-51.02
-P	-16.40	1.16	-51.02
-P	-16.40	1.16	-47.02
-P	-20.40	1.16	-47.02
 Z	5ac3477486f7741d651d6885	63a865ce1943b749b5021f86	factory4_day	-18.40	1.16	-49.02	visit	Locate the fourth Factory extraction
 P	-20.40	0.16	-51.02
 P	-20.40	0.16	-47.02
 P	-16.40	0.16	-47.02
 P	-16.40	0.16	-51.02
+Z	5ac3477486f7741d651d6885	63a865ce1943b749b5021f86	factory4_night	-18.40	1.16	-49.02	visit	Locate the fourth Factory extraction
+P	-20.40	1.16	-51.02
+P	-16.40	1.16	-51.02
+P	-16.40	1.16	-47.02
+P	-20.40	1.16	-47.02
 O	5ac3477486f7741d651d6885	5ac61b1486f7743a8f30fc84	1	extract	Survive and extract from the location
 T	5ac3479086f7742880308199	Insider	Mechanic	
 O	5ac3479086f7742880308199	5dbadfd186f77449467d1482	1	traderLevel	Reach Loyalty Level 3 with Prapor
@@ -3918,16 +3918,16 @@ P	-52.99	0.58	-68.96
 P	-53.18	0.58	-69.94
 T	657315ddab5a49b71f098853	First in Line	Therapist	sandbox
 O	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	1	visit	Locate the Emercom station on Ground Zero
-Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox_high	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
-P	143.45	25.52	-90.69
-P	168.95	25.52	-90.69
-P	168.95	25.52	-76.49
-P	143.45	25.52	-76.49
 Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
 P	143.45	22.52	-90.69
 P	143.45	22.52	-76.49
 P	168.95	22.52	-76.49
 P	168.95	22.52	-90.69
+Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox_high	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
+P	143.45	25.52	-90.69
+P	168.95	25.52	-90.69
+P	168.95	25.52	-76.49
+P	143.45	25.52	-76.49
 O	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	3	giveItem	Hand over any found in raid medicine items
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	590c695186f7741e566b64a2
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	5751a89d24597722aa0e8db0
@@ -3983,40 +3983,40 @@ I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	62a0a043cf4a99369e2624a5
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	619cc01e0a7c3a1a2731940c
 T	657315df034d76585f032e01	Shooting Cans	Prapor	sandbox
 O	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	1	visit	Locate the Utyos machine gun on Ground Zero
-Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox_high	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
-P	53.10	32.34	127.10
-P	60.10	32.34	127.10
-P	60.10	32.34	134.10
-P	53.10	32.34	134.10
 Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
 P	53.10	30.84	127.10
 P	53.10	30.84	134.10
 P	60.10	30.84	134.10
 P	60.10	30.84	127.10
+Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox_high	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
+P	53.10	32.34	127.10
+P	60.10	32.34	127.10
+P	60.10	32.34	134.10
+P	53.10	32.34	134.10
 O	657315df034d76585f032e01	6573340403f471fb2bb12df1	1	visit	Locate the AGS grenade launcher on Ground Zero
-Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox_high	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
-P	97.27	34.16	273.06
-P	104.82	34.16	273.06
-P	104.82	34.16	279.66
-P	97.27	34.16	279.66
 Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
 P	97.27	32.66	273.06
 P	97.27	32.66	279.66
 P	104.82	32.66	279.66
 P	104.82	32.66	273.06
+Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox_high	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
+P	97.27	34.16	273.06
+P	104.82	34.16	273.06
+P	104.82	34.16	279.66
+P	97.27	34.16	279.66
 O	657315df034d76585f032e01	6a54a310b22ea41cf1c54a20	5	shoot	Eliminate any target on Ground Zero
 T	657315e1dccd301f1301416a	Luxurious Life	Prapor	sandbox
 O	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	1	visit	Locate the liquor store on Ground Zero
-Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox_high	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
-P	105.56	24.23	20.21
-P	128.56	24.23	20.21
-P	128.56	24.23	33.51
-P	105.56	24.23	33.51
 Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
 P	105.56	22.73	20.21
 P	105.56	22.73	33.51
 P	128.56	22.73	33.51
 P	128.56	22.73	20.21
+Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox_high	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
+P	105.56	24.23	20.21
+P	128.56	24.23	20.21
+P	128.56	24.23	33.51
+P	105.56	24.23	33.51
 O	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	1	findQuestItem	Locate and obtain the wine bottle in the store
 Q	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	6582bd252b50c61c565828e2	Wine	sandbox	130.27	23.66	23.69
 Q	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	6582bd252b50c61c565828e2	Wine	sandbox	119.67	23.71	22.89
@@ -4034,38 +4034,38 @@ T	657315e270bb0b8dba00cc48	Burning Rubber	Skier	sandbox
 O	657315e270bb0b8dba00cc48	65733e571b7e7ed95fcd2f0c	1	extract	Use the paid vehicle extraction on Ground Zero
 T	657315e4a6af4ab4b50f3459	Saving the Mole	Mechanic	sandbox
 O	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	1	visit	Access the lab scientist's office on Ground Zero
-Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox_high	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
-P	-20.28	31.01	44.68
-P	-6.68	31.01	44.68
-P	-6.68	31.01	57.98
-P	-20.28	31.01	57.98
 Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
 P	-20.28	29.51	44.68
 P	-20.28	29.51	57.98
 P	-6.68	29.51	57.98
 P	-6.68	29.51	44.68
+Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox_high	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
+P	-20.28	31.01	44.68
+P	-6.68	31.01	44.68
+P	-6.68	31.01	57.98
+P	-20.28	31.01	57.98
 O	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	1	visit	Locate the USEC group at the parking lot of the TerraGroup complex
-Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox_high	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
-P	-29.01	24.23	-29.10
-P	-13.01	24.23	-29.10
-P	-13.01	24.23	-21.10
-P	-29.01	24.23	-21.10
 Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
 P	-29.01	22.73	-29.10
 P	-29.01	22.73	-21.10
 P	-13.01	22.73	-21.10
 P	-13.01	22.73	-29.10
+Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox_high	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
+P	-29.01	24.23	-29.10
+P	-13.01	24.23	-29.10
+P	-13.01	24.23	-21.10
+P	-29.01	24.23	-21.10
 O	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	1	visit	Locate the lab scientist in the TerraGroup complex
-Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox_high	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
-P	-62.95	25.62	23.92
-P	-57.95	25.62	23.92
-P	-57.95	25.62	30.92
-P	-62.95	25.62	30.92
 Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
 P	-62.95	24.12	23.92
 P	-62.95	24.12	30.92
 P	-57.95	24.12	30.92
 P	-57.95	24.12	23.92
+Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox_high	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
+P	-62.95	25.62	23.92
+P	-57.95	25.62	23.92
+P	-57.95	25.62	30.92
+P	-62.95	25.62	30.92
 O	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	1	findQuestItem	Locate and obtain the scientist's hard drive
 Q	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	6575a6ca8778e96ded05a802	HDD	sandbox	-12.36	30.69	49.03
 Q	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	6575a6ca8778e96ded05a802	HDD	sandbox	-11.95	30.23	49.59
@@ -4184,16 +4184,16 @@ P	-445.56	0.06	247.52
 I	6578ec473dbd035d04531a8d	6578ec473dbd035d04531a92	5991b51486f77447b112d44f
 T	658027799634223183395339	No Swiping	Skier	shoreline
 O	658027799634223183395339	65802779963422318339533c	10	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
-Z	658027799634223183395339	65802779963422318339533c	interchange	438.79	32.40	145.60	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
-P	293.29	17.40	-12.15
-P	293.29	17.40	303.35
-P	584.29	17.40	303.35
-P	584.29	17.40	-12.15
 Z	658027799634223183395339	65802779963422318339533c	shoreline	-591.80	-20.30	-117.70	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
 P	-751.45	-45.30	-364.63
 P	-737.73	-45.30	137.58
 P	-432.14	-45.30	129.23
 P	-445.86	-45.30	-372.98
+Z	658027799634223183395339	65802779963422318339533c	interchange	438.79	32.40	145.60	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
+P	293.29	17.40	-12.15
+P	293.29	17.40	303.35
+P	584.29	17.40	303.35
+P	584.29	17.40	-12.15
 T	65802b627b44fa5e14638899	Nothing Fishy About This	Ragman	shoreline
 O	65802b627b44fa5e14638899	65802b627b44fa5e1463889a	1	visit	Locate Ragman's SUV on Shoreline
 Z	65802b627b44fa5e14638899	65802b627b44fa5e1463889a	shoreline	227.17	-54.91	-159.88	visit	Locate Ragman's SUV on Shoreline
@@ -4314,16 +4314,16 @@ I	66058cbb06ef1d50a60c1f46	6606d08b4e2e27ca2d80085e	657b28d25f444d6dff0c6c77
 I	66058cbb06ef1d50a60c1f46	6606d08b4e2e27ca2d80085e	656f66b5c6baea13cd07e108
 T	66058cbd9f59e625462acc8e	Create a Distraction - Part 1 [PVP ZONE]	Ref	sandbox
 O	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	3	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
-Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox_high	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
-P	98.96	29.09	138.61
-P	115.96	29.09	138.61
-P	115.96	29.09	157.51
-P	98.96	29.09	157.51
 Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
 P	98.96	28.34	138.61
 P	98.96	28.34	157.51
 P	115.96	28.34	157.51
 P	115.96	28.34	138.61
+Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox_high	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
+P	98.96	29.09	138.61
+P	115.96	29.09	138.61
+P	115.96	29.09	157.51
+P	98.96	29.09	157.51
 I	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	60391b0fb847c71012789415
 T	66058cbf2f19c31a5a1337ec	Create a Distraction - Part 2 [PVP ZONE]	Ref	tarkovstreets
 O	66058cbf2f19c31a5a1337ec	660d5effb318c171fb1ca234	2	shoot	Eliminate Kaban's or Kollontay's guards on Streets of Tarkov
@@ -4852,26 +4852,6 @@ T	669fa395c4c5c04798002497	Exit Here	Skier	factory4_day
 O	669fa395c4c5c04798002497	669fb12eb01ceef19a5b4ebc	1	extract	Survive and extract from Factory through the Courtyard Gate
 T	669fa3979b0ce3feae01a130	Claustrophobia	Jaeger	factory4_day
 O	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	5	shoot	Eliminate any target in basement tunnel network on Factory
-Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	19.81	-2.56	46.84	shoot	Eliminate any target in basement tunnel network on Factory
-P	-55.19	-2.56	21.84
-P	94.81	-2.56	21.84
-P	94.81	-2.56	71.84
-P	-55.19	-2.56	71.84
-Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	-51.08	-2.99	13.58	shoot	Eliminate any target in basement tunnel network on Factory
-P	-91.08	-2.99	-26.42
-P	-11.08	-2.99	-26.42
-P	-11.08	-2.99	53.58
-P	-91.08	-2.99	53.58
-Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	19.81	-2.99	-28.64	shoot	Eliminate any target in basement tunnel network on Factory
-P	-55.19	-2.99	-68.64
-P	94.81	-2.99	-68.64
-P	94.81	-2.99	11.36
-P	-55.19	-2.99	11.36
-Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	64.99	-2.99	13.58	shoot	Eliminate any target in basement tunnel network on Factory
-P	24.99	-2.99	-26.42
-P	104.99	-2.99	-26.42
-P	104.99	-2.99	53.58
-P	24.99	-2.99	53.58
 Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_day	19.81	-2.56	3.30	shoot	Eliminate any target in basement tunnel network on Factory
 P	-55.19	-5.06	-71.70
 P	-55.19	-5.06	78.30
@@ -4897,6 +4877,26 @@ P	-55.19	-5.06	21.84
 P	-55.19	-5.06	71.84
 P	94.81	-5.06	71.84
 P	94.81	-5.06	21.84
+Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	19.81	-2.56	46.84	shoot	Eliminate any target in basement tunnel network on Factory
+P	-55.19	-2.56	21.84
+P	94.81	-2.56	21.84
+P	94.81	-2.56	71.84
+P	-55.19	-2.56	71.84
+Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	-51.08	-2.99	13.58	shoot	Eliminate any target in basement tunnel network on Factory
+P	-91.08	-2.99	-26.42
+P	-11.08	-2.99	-26.42
+P	-11.08	-2.99	53.58
+P	-91.08	-2.99	53.58
+Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	19.81	-2.99	-28.64	shoot	Eliminate any target in basement tunnel network on Factory
+P	-55.19	-2.99	-68.64
+P	94.81	-2.99	-68.64
+P	94.81	-2.99	11.36
+P	-55.19	-2.99	11.36
+Z	669fa3979b0ce3feae01a130	669fb1ffe34e78d618792b41	factory4_night	64.99	-2.99	13.58	shoot	Eliminate any target in basement tunnel network on Factory
+P	24.99	-2.99	-26.42
+P	104.99	-2.99	-26.42
+P	104.99	-2.99	53.58
+P	24.99	-2.99	53.58
 T	669fa399033a3ce9870338a8	Possessor	Prapor	factory4_day
 O	669fa399033a3ce9870338a8	669fb4a56e66d3d79183a5c9	1	findQuestItem	Locate and obtain the helicopter logbook on Factory
 Q	669fa399033a3ce9870338a8	669fb4a56e66d3d79183a5c9	66c0b90c8398582e4b0c2e27	Logbook	factory4_day	26.25	7.86	-3.60
@@ -4906,73 +4906,73 @@ O	669fa399033a3ce9870338a8	669fb4b21f2e5268651cc96a	1	giveQuestItem	Hand over th
 I	669fa399033a3ce9870338a8	669fb4b21f2e5268651cc96a	66c0b90c8398582e4b0c2e27
 T	669fa39b91b0a8c9680fc467	Black Swan	Mechanic	factory4_day
 O	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	1	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
-Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	-16.99	-1.60	34.81	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
-P	-20.34	-1.60	34.06
-P	-13.65	-1.60	34.06
-P	-13.65	-1.60	35.56
-P	-20.34	-1.60	35.56
 Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_day	-16.99	-1.60	34.81	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
 P	-20.34	-2.60	34.06
 P	-20.34	-2.60	35.56
 P	-13.65	-2.60	35.56
 P	-13.65	-2.60	34.06
-Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	34.43	-1.48	-4.45	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
-P	33.68	-1.48	-7.79
-P	35.18	-1.48	-7.79
-P	35.18	-1.48	-1.10
-P	33.68	-1.48	-1.10
+Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	-16.99	-1.60	34.81	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
+P	-20.34	-1.60	34.06
+P	-13.65	-1.60	34.06
+P	-13.65	-1.60	35.56
+P	-20.34	-1.60	35.56
 Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_day	34.43	-1.48	-4.45	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
 P	33.68	-2.48	-1.10
 P	35.18	-2.48	-1.10
 P	35.18	-2.48	-7.79
 P	33.68	-2.48	-7.79
-Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	45.62	-1.60	-36.13	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
-P	41.87	-1.60	-36.88
-P	49.37	-1.60	-36.88
-P	49.37	-1.60	-35.38
-P	41.87	-1.60	-35.38
+Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	34.43	-1.48	-4.45	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
+P	33.68	-1.48	-7.79
+P	35.18	-1.48	-7.79
+P	35.18	-1.48	-1.10
+P	33.68	-1.48	-1.10
 Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_day	45.62	-1.60	-36.13	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
 P	41.87	-2.60	-36.88
 P	41.87	-2.60	-35.38
 P	49.37	-2.60	-35.38
 P	49.37	-2.60	-36.88
+Z	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	factory4_night	45.62	-1.60	-36.13	mark	Locate and mark any of the heat exchangers with an MS2000 Marker on Factory
+P	41.87	-1.60	-36.88
+P	49.37	-1.60	-36.88
+P	49.37	-1.60	-35.38
+P	41.87	-1.60	-35.38
 I	669fa39b91b0a8c9680fc467	669fb647a5be751be095da27	5991b51486f77447b112d44f
 T	669fa39c64ea11e84c0642a6	The Walls Have Eyes	Skier	factory4_day
 O	669fa39c64ea11e84c0642a6	669fb5c58c03e61e1a33ddf0	1	plantItem	Install a WI-FI Camera in the first crane's cockpit on Factory
-Z	669fa39c64ea11e84c0642a6	669fb5c58c03e61e1a33ddf0	factory4_night	63.61	6.44	35.11	plantItem	Install a WI-FI Camera in the first crane's cockpit on Factory
-P	62.36	6.44	34.37
-P	64.86	6.44	34.36
-P	64.86	6.44	35.86
-P	62.36	6.44	35.87
 Z	669fa39c64ea11e84c0642a6	669fb5c58c03e61e1a33ddf0	factory4_day	63.61	6.44	35.11	plantItem	Install a WI-FI Camera in the first crane's cockpit on Factory
 P	64.86	5.19	34.36
 P	62.36	5.19	34.37
 P	62.36	5.19	35.87
 P	64.86	5.19	35.86
+Z	669fa39c64ea11e84c0642a6	669fb5c58c03e61e1a33ddf0	factory4_night	63.61	6.44	35.11	plantItem	Install a WI-FI Camera in the first crane's cockpit on Factory
+P	62.36	6.44	34.37
+P	64.86	6.44	34.36
+P	64.86	6.44	35.86
+P	62.36	6.44	35.87
 I	669fa39c64ea11e84c0642a6	669fb5c58c03e61e1a33ddf0	5b4391a586f7745321235ab2
 O	669fa39c64ea11e84c0642a6	669fb5c7d5fbaaa7b285e83d	1	plantItem	Install a WI-FI Camera in the second crane's cockpit on Factory
-Z	669fa39c64ea11e84c0642a6	669fb5c7d5fbaaa7b285e83d	factory4_night	-5.47	5.78	-32.48	plantItem	Install a WI-FI Camera in the second crane's cockpit on Factory
-P	-6.23	5.78	-33.72
-P	-4.73	5.78	-33.73
-P	-4.72	5.78	-31.23
-P	-6.22	5.78	-31.22
 Z	669fa39c64ea11e84c0642a6	669fb5c7d5fbaaa7b285e83d	factory4_day	-5.47	5.78	-32.48	plantItem	Install a WI-FI Camera in the second crane's cockpit on Factory
 P	-6.23	4.53	-33.72
 P	-6.22	4.53	-31.22
 P	-4.72	4.53	-31.23
 P	-4.73	4.53	-33.73
+Z	669fa39c64ea11e84c0642a6	669fb5c7d5fbaaa7b285e83d	factory4_night	-5.47	5.78	-32.48	plantItem	Install a WI-FI Camera in the second crane's cockpit on Factory
+P	-6.23	5.78	-33.72
+P	-4.73	5.78	-33.73
+P	-4.72	5.78	-31.23
+P	-6.22	5.78	-31.22
 I	669fa39c64ea11e84c0642a6	669fb5c7d5fbaaa7b285e83d	5b4391a586f7745321235ab2
 O	669fa39c64ea11e84c0642a6	669fb5c9d798aa41b9bd60b5	1	plantItem	Install a WI-FI Camera in the third crane's cockpit on Factory
-Z	669fa39c64ea11e84c0642a6	669fb5c9d798aa41b9bd60b5	factory4_night	-24.44	6.20	60.43	plantItem	Install a WI-FI Camera in the third crane's cockpit on Factory
-P	-25.20	6.20	59.18
-P	-23.70	6.20	59.17
-P	-23.69	6.20	61.67
-P	-25.19	6.20	61.68
 Z	669fa39c64ea11e84c0642a6	669fb5c9d798aa41b9bd60b5	factory4_day	-24.44	6.20	60.43	plantItem	Install a WI-FI Camera in the third crane's cockpit on Factory
 P	-25.20	4.95	59.18
 P	-25.19	4.95	61.68
 P	-23.69	4.95	61.67
 P	-23.70	4.95	59.17
+Z	669fa39c64ea11e84c0642a6	669fb5c9d798aa41b9bd60b5	factory4_night	-24.44	6.20	60.43	plantItem	Install a WI-FI Camera in the third crane's cockpit on Factory
+P	-25.20	6.20	59.18
+P	-23.70	6.20	59.17
+P	-23.69	6.20	61.67
+P	-25.19	6.20	61.68
 I	669fa39c64ea11e84c0642a6	669fb5c9d798aa41b9bd60b5	5b4391a586f7745321235ab2
 T	669fa39ee749756c920d02c8	All Is Revealed	Therapist	factory4_day
 O	669fa39ee749756c920d02c8	669fb6c859bdae826f7325d4	1	findQuestItem	Take a sample of the chemicals from the damaged tank container on Factory
@@ -5013,27 +5013,27 @@ O	669fa3a40c828825de06d6a1	66a0f5a7f9eae6761253114c	30	shoot	Eliminate any targe
 T	66aa58245ab22944110db6e9	New Paths	Peacekeeper	
 O	66aa58245ab22944110db6e9	66aa5be8035c6a410dc570b2	1	extract	Use the transit from Ground Zero to Streets of Tarkov (In one raid)
 O	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	1	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
-Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox_high	172.43	17.31	64.70	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
-P	177.81	17.31	-50.67
-P	232.94	17.31	-50.67
-P	232.94	17.31	124.29
-P	177.81	17.31	124.29
 Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox	205.37	17.31	36.81	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
 P	177.81	15.81	-50.67
 P	177.81	15.81	124.29
 P	232.94	15.81	124.29
 P	232.94	15.81	-50.67
+Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox_high	172.43	17.31	64.70	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
+P	177.81	17.31	-50.67
+P	232.94	17.31	-50.67
+P	232.94	17.31	124.29
+P	177.81	17.31	124.29
 O	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	1	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
-Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox_high	222.83	15.99	65.72	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
-P	221.23	16.99	48.74
-P	233.67	16.99	48.74
-P	233.67	16.99	84.26
-P	221.23	16.99	84.26
 Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox	227.45	16.99	66.50	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
 P	221.23	15.99	48.74
 P	221.23	15.99	84.26
 P	233.67	15.99	84.26
 P	233.67	15.99	48.74
+Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox_high	222.83	15.99	65.72	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
+P	221.23	16.99	48.74
+P	233.67	16.99	48.74
+P	233.67	16.99	84.26
+P	221.23	16.99	84.26
 T	66aa61663aa37705c5024277	Know Your Place!	Ragman	
 O	66aa61663aa37705c5024277	66aa61663aa37705c5024278	5	shoot	Eliminate any target on Streets of Tarkov (In one raid)
 O	66aa61663aa37705c5024277	66aa61663aa37705c502427c	1	extract	Use the transit from Streets of Tarkov to Interchange (In one raid)
@@ -5049,16 +5049,16 @@ Q	66aa74571e5e199ecd094f18	66ab97a5c74ce045d6c32578	66b22630a6b4e5ec7c02cdb7	Too
 Q	66aa74571e5e199ecd094f18	66ab97a5c74ce045d6c32578	66b22630a6b4e5ec7c02cdb7	Tools	bigmap	81.09	4.70	-152.63
 I	66aa74571e5e199ecd094f18	66ab97a5c74ce045d6c32578	66b22630a6b4e5ec7c02cdb7
 O	66aa74571e5e199ecd094f18	66ab97d56cb6e3bfd7c79fbc	1	plantQuestItem	Stash the package at the laboratory storage room on Factory
-Z	66aa74571e5e199ecd094f18	66ab97d56cb6e3bfd7c79fbc	factory4_night	27.89	1.15	-32.89	plantQuestItem	Stash the package at the laboratory storage room on Factory
-P	25.53	1.15	-36.13
-P	30.74	1.15	-36.13
-P	30.74	1.15	-32.60
-P	25.53	1.15	-32.60
 Z	66aa74571e5e199ecd094f18	66ab97d56cb6e3bfd7c79fbc	factory4_day	28.13	1.15	-34.37	plantQuestItem	Stash the package at the laboratory storage room on Factory
 P	25.53	-0.10	-36.13
 P	25.53	-0.10	-32.60
 P	30.74	-0.10	-32.60
 P	30.74	-0.10	-36.13
+Z	66aa74571e5e199ecd094f18	66ab97d56cb6e3bfd7c79fbc	factory4_night	27.89	1.15	-32.89	plantQuestItem	Stash the package at the laboratory storage room on Factory
+P	25.53	1.15	-36.13
+P	30.74	1.15	-36.13
+P	30.74	1.15	-32.60
+P	25.53	1.15	-32.60
 I	66aa74571e5e199ecd094f18	66ab97d56cb6e3bfd7c79fbc	66b22630a6b4e5ec7c02cdb7
 T	66ab970848ddbe9d4a0c49a8	Special Comms	Prapor	
 O	66ab970848ddbe9d4a0c49a8	66ab9c5c60199cdb0902f8cc	1	plantItem	Stash a Military cable at the boulder next to RUAF gate on Woods
@@ -5115,28 +5115,28 @@ P	316.63	7.00	-436.03
 P	363.16	7.00	-438.25
 P	358.02	7.00	-545.84
 O	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	1	visit	Locate the Claymore mine on Ground Zero
-Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox_high	60.35	23.74	170.89	visit	Locate the Claymore mine on Ground Zero
-P	58.34	24.29	171.05
-P	60.59	24.29	171.05
-P	60.59	24.29	174.65
-P	58.34	24.29	174.65
 Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox	59.46	24.29	172.85	visit	Locate the Claymore mine on Ground Zero
 P	58.34	23.35	171.05
 P	58.34	23.35	174.65
 P	60.59	23.35	174.65
 P	60.59	23.35	171.05
+Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox_high	60.35	23.74	170.89	visit	Locate the Claymore mine on Ground Zero
+P	58.34	24.29	171.05
+P	60.59	24.29	171.05
+P	60.59	24.29	174.65
+P	58.34	24.29	174.65
 T	66b38e144f2ab7cc530c3fe7	Every Hunter Knows This	Jaeger	
 O	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	1	visit	Locate a good tripwire installation spot in the breach room on Factory
-Z	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	factory4_night	25.35	8.76	39.25	visit	Locate a good tripwire installation spot in the breach room on Factory
-P	22.74	9.34	36.78
-P	26.23	9.34	36.82
-P	26.19	9.34	40.71
-P	22.70	9.34	40.67
 Z	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	factory4_day	24.47	9.34	38.74	visit	Locate a good tripwire installation spot in the breach room on Factory
 P	22.70	8.43	40.67
 P	26.19	8.43	40.71
 P	26.23	8.43	36.82
 P	22.74	8.43	36.78
+Z	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	factory4_night	25.35	8.76	39.25	visit	Locate a good tripwire installation spot in the breach room on Factory
+P	22.74	9.34	36.78
+P	26.23	9.34	36.82
+P	26.19	9.34	40.71
+P	22.70	9.34	40.67
 O	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fea	1	visit	Locate a good tripwire installation spot at the three-story dorm stairs on Customs
 Z	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fea	bigmap	171.76	1.00	160.04	visit	Locate a good tripwire installation spot at the three-story dorm stairs on Customs
 P	168.66	-0.48	159.20
@@ -5173,40 +5173,40 @@ P	183.71	1.79	112.39
 P	183.73	1.79	111.12
 I	66d9cbb67b491f9d5304f6e6	66d9cbb67b491f9d5304f6ea	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	1	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox_high	4.63	23.95	337.25	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
-P	2.14	24.27	334.63
-P	5.83	24.27	334.63
-P	5.83	24.27	338.04
-P	2.14	24.27	338.04
 Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox	3.99	24.27	336.33	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
 P	2.14	23.62	334.63
 P	2.14	23.62	338.04
 P	5.83	23.62	338.04
 P	5.83	23.62	334.63
+Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox_high	4.63	23.95	337.25	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
+P	2.14	24.27	334.63
+P	5.83	24.27	334.63
+P	5.83	24.27	338.04
+P	2.14	24.27	338.04
 I	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	1	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox_high	118.71	24.24	190.30	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
-P	118.11	24.51	190.07
-P	119.30	24.51	190.07
-P	119.30	24.51	191.09
-P	118.11	24.51	191.09
 Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox	118.71	24.51	190.58	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
 P	118.11	23.91	190.07
 P	118.11	23.91	191.09
 P	119.30	23.91	191.09
 P	119.30	23.91	190.07
+Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox_high	118.71	24.24	190.30	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
+P	118.11	24.51	190.07
+P	119.30	24.51	190.07
+P	119.30	24.51	191.09
+P	118.11	24.51	191.09
 I	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	1	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox_high	41.10	31.41	140.81	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
-P	39.11	31.68	138.40
-P	41.69	31.68	138.40
-P	41.69	31.68	142.96
-P	39.11	31.68	142.96
 Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox	40.40	31.68	140.68	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
 P	39.11	31.08	138.40
 P	39.11	31.08	142.96
 P	41.69	31.08	142.96
 P	41.69	31.08	138.40
+Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox_high	41.10	31.41	140.81	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
+P	39.11	31.68	138.40
+P	41.69	31.68	138.40
+P	41.69	31.68	142.96
+P	39.11	31.68	142.96
 I	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1ddec53b0df3b10a1b9	1	plantItem	Install a WI-FI Camera by your friend Wilson on Lighthouse
 Z	66d9cbb67b491f9d5304f6e6	66dad1ddec53b0df3b10a1b9	lighthouse	117.14	0.95	-154.49	plantItem	Install a WI-FI Camera by your friend Wilson on Lighthouse
@@ -5279,88 +5279,88 @@ P	173.14	3.32	183.28
 P	172.96	3.32	181.47
 I	66d9cbb67b491f9d5304f6e6	66dad1f22edc2103eb176de8	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f8d7539f4b4eb640aff	1	plantItem	Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f8d7539f4b4eb640aff	factory4_night	17.42	1.83	43.02	plantItem	Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory
-P	14.93	1.80	41.45
-P	17.83	1.80	41.45
-P	17.83	1.80	44.10
-P	14.93	1.80	44.10
 Z	66d9cbb67b491f9d5304f6e6	66db1f8d7539f4b4eb640aff	factory4_day	16.38	1.80	42.78	plantItem	Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory
 P	14.93	0.77	41.45
 P	14.93	0.77	44.10
 P	17.83	0.77	44.10
 P	17.83	0.77	41.45
+Z	66d9cbb67b491f9d5304f6e6	66db1f8d7539f4b4eb640aff	factory4_night	17.42	1.83	43.02	plantItem	Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory
+P	14.93	1.80	41.45
+P	17.83	1.80	41.45
+P	17.83	1.80	44.10
+P	14.93	1.80	44.10
 I	66d9cbb67b491f9d5304f6e6	66db1f8d7539f4b4eb640aff	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f8f564045697071d934	1	plantItem	Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f8f564045697071d934	factory4_night	21.40	-1.88	11.71	plantItem	Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory
-P	20.02	-1.61	11.48
-P	21.99	-1.61	11.48
-P	21.99	-1.61	12.64
-P	20.02	-1.61	12.64
 Z	66d9cbb67b491f9d5304f6e6	66db1f8f564045697071d934	factory4_day	21.00	-1.61	12.06	plantItem	Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory
 P	20.02	-2.21	11.48
 P	20.02	-2.21	12.64
 P	21.99	-2.21	12.64
 P	21.99	-2.21	11.48
+Z	66d9cbb67b491f9d5304f6e6	66db1f8f564045697071d934	factory4_night	21.40	-1.88	11.71	plantItem	Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory
+P	20.02	-1.61	11.48
+P	21.99	-1.61	11.48
+P	21.99	-1.61	12.64
+P	20.02	-1.61	12.64
 I	66d9cbb67b491f9d5304f6e6	66db1f8f564045697071d934	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f928d59a9fe511dfc25	1	plantItem	Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f928d59a9fe511dfc25	factory4_night	-49.61	2.35	60.41	plantItem	Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory
-P	-49.69	2.69	59.95
-P	-49.06	2.69	59.95
-P	-49.06	2.69	60.87
-P	-49.69	2.69	60.87
 Z	66d9cbb67b491f9d5304f6e6	66db1f928d59a9fe511dfc25	factory4_day	-49.38	2.69	60.41	plantItem	Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory
 P	-49.69	2.16	59.95
 P	-49.69	2.16	60.87
 P	-49.06	2.16	60.87
 P	-49.06	2.16	59.95
+Z	66d9cbb67b491f9d5304f6e6	66db1f928d59a9fe511dfc25	factory4_night	-49.61	2.35	60.41	plantItem	Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory
+P	-49.69	2.69	59.95
+P	-49.06	2.69	59.95
+P	-49.06	2.69	60.87
+P	-49.69	2.69	60.87
 I	66d9cbb67b491f9d5304f6e6	66db1f928d59a9fe511dfc25	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f94a147d9840ec0dfba	1	plantItem	Install a WI-FI Camera in the conspiracy theorist's room on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f94a147d9840ec0dfba	factory4_night	27.37	9.23	38.42	plantItem	Install a WI-FI Camera in the conspiracy theorist's room on Factory
-P	27.23	9.46	36.68
-P	27.96	9.46	36.68
-P	27.96	9.46	40.58
-P	27.23	9.46	40.58
 Z	66d9cbb67b491f9d5304f6e6	66db1f94a147d9840ec0dfba	factory4_day	27.60	9.46	38.63	plantItem	Install a WI-FI Camera in the conspiracy theorist's room on Factory
 P	27.23	8.62	36.68
 P	27.23	8.62	40.58
 P	27.96	8.62	40.58
 P	27.96	8.62	36.68
+Z	66d9cbb67b491f9d5304f6e6	66db1f94a147d9840ec0dfba	factory4_night	27.37	9.23	38.42	plantItem	Install a WI-FI Camera in the conspiracy theorist's room on Factory
+P	27.23	9.46	36.68
+P	27.96	9.46	36.68
+P	27.96	9.46	40.58
+P	27.23	9.46	40.58
 I	66d9cbb67b491f9d5304f6e6	66db1f94a147d9840ec0dfba	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f98b8e22a92437fe5c6	1	plantItem	Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f98b8e22a92437fe5c6	factory4_night	52.41	1.86	-17.49	plantItem	Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory
-P	52.01	1.45	-17.93
-P	53.44	1.45	-17.93
-P	53.44	1.45	-16.58
-P	52.01	1.45	-16.58
 Z	66d9cbb67b491f9d5304f6e6	66db1f98b8e22a92437fe5c6	factory4_day	52.72	1.45	-17.25	plantItem	Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory
 P	52.01	0.67	-17.93
 P	52.01	0.67	-16.58
 P	53.44	0.67	-16.58
 P	53.44	0.67	-17.93
+Z	66d9cbb67b491f9d5304f6e6	66db1f98b8e22a92437fe5c6	factory4_night	52.41	1.86	-17.49	plantItem	Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory
+P	52.01	1.45	-17.93
+P	53.44	1.45	-17.93
+P	53.44	1.45	-16.58
+P	52.01	1.45	-16.58
 I	66d9cbb67b491f9d5304f6e6	66db1f98b8e22a92437fe5c6	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1f9b4f7bf01d937eb150	1	plantItem	Install a WI-FI Camera at the mother of all strategy games on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1f9b4f7bf01d937eb150	factory4_night	30.74	4.29	-31.15	plantItem	Install a WI-FI Camera at the mother of all strategy games on Factory
-P	29.90	4.46	-31.68
-P	30.89	4.46	-31.68
-P	30.89	4.46	-30.32
-P	29.90	4.46	-30.32
 Z	66d9cbb67b491f9d5304f6e6	66db1f9b4f7bf01d937eb150	factory4_day	30.39	4.46	-31.00	plantItem	Install a WI-FI Camera at the mother of all strategy games on Factory
 P	29.90	3.75	-31.68
 P	29.90	3.75	-30.32
 P	30.89	3.75	-30.32
 P	30.89	3.75	-31.68
+Z	66d9cbb67b491f9d5304f6e6	66db1f9b4f7bf01d937eb150	factory4_night	30.74	4.29	-31.15	plantItem	Install a WI-FI Camera at the mother of all strategy games on Factory
+P	29.90	4.46	-31.68
+P	30.89	4.46	-31.68
+P	30.89	4.46	-30.32
+P	29.90	4.46	-30.32
 I	66d9cbb67b491f9d5304f6e6	66db1f9b4f7bf01d937eb150	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66db1ff798d52a5a8e4ed1f8	1	plantItem	Install a WI-FI Camera at the stairway to the skies on Factory
-Z	66d9cbb67b491f9d5304f6e6	66db1ff798d52a5a8e4ed1f8	factory4_night	59.56	0.70	50.49	plantItem	Install a WI-FI Camera at the stairway to the skies on Factory
-P	59.00	1.22	49.92
-P	60.58	1.22	49.92
-P	60.58	1.22	50.65
-P	59.00	1.22	50.65
 Z	66d9cbb67b491f9d5304f6e6	66db1ff798d52a5a8e4ed1f8	factory4_day	59.79	1.22	50.29	plantItem	Install a WI-FI Camera at the stairway to the skies on Factory
 P	59.00	0.54	49.92
 P	59.00	0.54	50.65
 P	60.58	0.54	50.65
 P	60.58	0.54	49.92
+Z	66d9cbb67b491f9d5304f6e6	66db1ff798d52a5a8e4ed1f8	factory4_night	59.56	0.70	50.49	plantItem	Install a WI-FI Camera at the stairway to the skies on Factory
+P	59.00	1.22	49.92
+P	60.58	1.22	49.92
+P	60.58	1.22	50.65
+P	59.00	1.22	50.65
 I	66d9cbb67b491f9d5304f6e6	66db1ff798d52a5a8e4ed1f8	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66debf2b9e4ce2ef233ee5b7	1	plantItem	Install a WI-FI Camera at the bear who sat into a flaming car on Woods
 Z	66d9cbb67b491f9d5304f6e6	66debf2b9e4ce2ef233ee5b7	woods	-116.86	22.46	-464.12	plantItem	Install a WI-FI Camera at the bear who sat into a flaming car on Woods
@@ -19644,6 +19644,11 @@ P	334.77	-0.20	7.86
 P	306.33	-0.20	-132.69
 T	675c1cf4a757ddd00404f0a3	Work Smarter	Jaeger	bigmap
 O	675c1cf4a757ddd00404f0a3	675c1cf4a757ddd00404f0a6	1	visit	Locate the secret exfil on Customs
+Z	675c1cf4a757ddd00404f0a3	675c1cf4a757ddd00404f0a6	labyrinth	19.44	1.07	0.50	visit	Locate the secret exfil on Customs
+P	18.00	-0.43	-1.06
+P	17.89	-0.43	1.94
+P	20.89	-0.43	2.05
+P	21.00	-0.43	-0.95
 Z	675c1cf4a757ddd00404f0a3	675c1cf4a757ddd00404f0a6	bigmap	-41.51	-12.63	122.67	visit	Locate the secret exfil on Customs
 P	-47.15	-14.13	113.69
 P	-50.49	-14.13	128.31
@@ -19659,11 +19664,6 @@ P	457.13	-2.96	-113.92
 P	457.93	-2.96	-108.98
 P	467.81	-2.96	-110.58
 P	467.01	-2.96	-115.52
-Z	675c1cf4a757ddd00404f0a3	675c1cf4a757ddd00404f0a6	labyrinth	19.44	1.07	0.50	visit	Locate the secret exfil on Customs
-P	18.00	-0.43	-1.06
-P	17.89	-0.43	1.94
-P	20.89	-0.43	2.05
-P	21.00	-0.43	-0.95
 O	675c1cf4a757ddd00404f0a3	676ab31c058363b09072c78e	1	findItem	Obtain the special item to extract through the secret exfil
 I	675c1cf4a757ddd00404f0a3	676ab31c058363b09072c78e	675aaab74bca0b001d02f356
 T	675c1d6d59b0575973008fc7	Seizing the Initiative	Peacekeeper	
@@ -19778,16 +19778,16 @@ O	676529af9c90953d090882e7	676529af9c90953d090882ea	1	buildWeapon	Modify a PP-19
 O	676529af9c90953d090882e7	67652a2f4f75e1a9543289ed	1	buildWeapon	Modify a Glock 17 to comply with the given specifications
 T	67a09636b8725511260bc421	Shady Contractor	Mechanic	sandbox
 O	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	1	visit	Locate the Knossos LLC senior manager's car on Ground Zero
-Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox_high	55.26	23.79	252.75	visit	Locate the Knossos LLC senior manager's car on Ground Zero
-P	85.59	23.79	221.36
-P	92.80	23.79	221.36
-P	92.80	23.79	228.36
-P	85.59	23.79	228.36
 Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox	89.19	23.79	224.86	visit	Locate the Knossos LLC senior manager's car on Ground Zero
 P	85.59	20.29	221.36
 P	85.59	20.29	228.36
 P	92.80	20.29	228.36
 P	92.80	20.29	221.36
+Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox_high	55.26	23.79	252.75	visit	Locate the Knossos LLC senior manager's car on Ground Zero
+P	85.59	23.79	221.36
+P	92.80	23.79	221.36
+P	92.80	23.79	228.36
+P	85.59	23.79	228.36
 O	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	1	findQuestItem	Locate and obtain the manager's diary
 Q	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	679b9a1a4e4ed4b3b40ae5c2	Knossos	sandbox	89.39	23.64	224.97
 Q	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	679b9a1a4e4ed4b3b40ae5c2	Knossos	sandbox	86.82	23.08	226.10
@@ -19800,16 +19800,16 @@ O	67a09636b8725511260bc421	67a0ab83359e2d00cf9d6b06	1	giveQuestItem	Hand over th
 I	67a09636b8725511260bc421	67a0ab83359e2d00cf9d6b06	679b9a1a4e4ed4b3b40ae5c2
 T	67a0964e972c11a3f507731b	Needle in a Haystack	Mechanic	
 O	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	1	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
-Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox_high	-15.40	23.79	68.90	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
-P	-5.93	23.79	-12.62
-P	42.99	23.79	-12.62
-P	42.99	23.79	94.64
-P	-5.93	23.79	94.64
 Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox	18.53	23.79	41.01	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
 P	-5.93	18.76	-12.62
 P	-5.93	18.76	94.64
 P	42.99	18.76	94.64
 P	42.99	18.76	-12.62
+Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox_high	-15.40	23.79	68.90	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
+P	-5.93	23.79	-12.62
+P	42.99	23.79	-12.62
+P	42.99	23.79	94.64
+P	-5.93	23.79	94.64
 O	67a0964e972c11a3f507731b	67a0bc83182c4b0c71edd0ce	1	visit	Investigate the kart track on Interchange
 Z	67a0964e972c11a3f507731b	67a0bc83182c4b0c71edd0ce	interchange	159.90	23.40	-246.70	visit	Investigate the kart track on Interchange
 P	129.54	17.35	-281.13
