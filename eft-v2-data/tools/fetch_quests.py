@@ -17,6 +17,7 @@ One record per line, TAB separated ( the script parses it in one pass, no JSON )
     T  task id  name  trader  map nameId ( or "" )
     Z  task id  objective id  map nameId  x  y  z  type  description      a place to go / mark / plant / visit
     P  x  y  z                                                          outline point of the last Z
+    N  item id  English name                                            any item an objective refers to
     Q  task id  objective id  item id  item name  map nameId  x  y  z    a quest item and where it can spawn
     I  task id  objective id  item id                                   an item the quest wants ( find / hand over )
     O  task id  objective id  count  type  description                  objective list line, for the panel
@@ -175,7 +176,8 @@ def main():
 
     def qi_name(qid):
         qi = quest_items.get(qid) or {}
-        n = loc.get(qid + " ShortName") or loc.get(qid + " Name") or qi.get("shortName")
+        # the full name: in-raid labels and map markers read "Bronze pocket watch", not "Watch"
+        n = loc.get(qid + " Name") or qi.get("name") or loc.get(qid + " ShortName") or qi.get("shortName")
         if n and not re.match(r"^[0-9a-f]{24} ", n):
             return clean(n)
         return prettify_key(qi.get("normalizedName") or "Quest item")
@@ -257,6 +259,17 @@ def main():
             if isinstance(mk, str) and re.match(r"^[0-9a-f]{24}$", mk):
                 out.append("\t".join(["I", tid, oid, mk]))
                 ni += 1
+
+    # N rows: an English name for every item an objective refers to. Quest items and hand-over documents are missing
+    # from tarkov.dev's item table, and the game's own name for some is Russian - the script labels them from these.
+    linked = sorted({r.split("\t")[3] for r in out if r.startswith(("I\t", "Q\t"))})
+    nn = 0
+    for it in linked:
+        n = loc.get(it + " Name") or (quest_items.get(it) or {}).get("name")
+        if n and not re.match(r"^[0-9a-f]{24} ", n):
+            out.append("\t".join(["N", it, clean(n)]))
+            nn += 1
+    print("%d item names for objective items" % nn)
 
     text = "\n".join(out) + "\n"
     dest = os.path.expandvars(r"%APPDATA%\scripts\data\eft\eft_quests.txt") if len(sys.argv) < 2 else sys.argv[1]
