@@ -10,6 +10,7 @@ Format the script's load_items() parses:
 import json, os, re, sys, urllib.request, urllib.error
 
 ITEMS_URL = "https://json.tarkov.dev/regular/items"
+ITEMS_EN_URL = "https://json.tarkov.dev/regular/items_en"   # translation key -> English text
 LOCALES_URL = "https://raw.githubusercontent.com/sp-tarkov/server/master/project/assets/database/locales/global/en.json"
 UA = {"user-agent": "eft_v2-items/2"}
 
@@ -30,14 +31,26 @@ def main():
     if not items:
         sys.exit("tarkov.dev items: empty reply")
 
+    # The item list's names are translation keys ( "<id> ShortName" ); items_en turns them into English. It covers
+    # items the SPT locale doesn't have yet, which left ~1500 rows named "ShortName".
+    en = {}
+    try:
+        en = fetch_json(ITEMS_EN_URL, "tarkov.dev items_en", 120).get("data") or {}
+    except SystemExit:
+        print("tarkov.dev items_en unreachable - falling back to the SPT locale")
+
     loc = {}
     try:
         loc = fetch_json(LOCALES_URL, "SPT locales", 120)
     except SystemExit:
         print("SPT locales unreachable - names will need GraphQL or the next run")
 
+    def real(n):
+        return n if n and n.strip() not in ("ShortName", "Name") and not re.match(r"^[0-9a-f]{24} ", n) else ""
+
     def item_name(iid, it):
-        n = loc.get(iid + " ShortName") or loc.get(iid + " Name") or ""
+        n = (real(en.get(it.get("shortName") or "")) or real(en.get(iid + " ShortName"))
+             or real(loc.get(iid + " ShortName")) or real(en.get(it.get("name") or "")) or real(loc.get(iid + " Name")))
         if n:
             return re.sub(r"[\t\r\n]+", " ", n).strip()
         # locale failed: the dump's own fields are '{id} ShortName' keys, not readable text
