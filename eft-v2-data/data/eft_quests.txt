@@ -2751,11 +2751,6 @@ O	60e71b62a0beca400d69efc4	60ec0b1871035f300c301acd	2	shoot	Eliminate PMC operat
 O	60e71b62a0beca400d69efc4	65e19abadf39d26751b3bb1e	2	shoot	Eliminate PMC operatives on Ground Zero
 T	60e71b9bbd90872cb85440f3	Capturing Outposts	Prapor	
 O	60e71b9bbd90872cb85440f3	60ec18b73b5f7d790a7ad034	12	shoot	Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods
-Z	60e71b9bbd90872cb85440f3	60ec18b73b5f7d790a7ad034	woods	-198.80	5.10	222.00	shoot	Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods
-P	-299.69	-19.90	80.29
-P	-329.63	-19.90	336.65
-P	-97.91	-19.90	363.71
-P	-67.97	-19.90	107.35
 Z	60e71b9bbd90872cb85440f3	60ec18b73b5f7d790a7ad034	bigmap	202.68	7.91	-126.77	shoot	Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods
 P	172.38	-4.24	-199.07
 P	148.17	-4.24	-70.43
@@ -2766,6 +2761,11 @@ P	-70.18	-40.70	-204.91
 P	-450.01	-40.70	-193.50
 P	-444.02	-40.70	5.91
 P	-64.19	-40.70	-5.50
+Z	60e71b9bbd90872cb85440f3	60ec18b73b5f7d790a7ad034	woods	-198.80	5.10	222.00	shoot	Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods
+P	-299.69	-19.90	80.29
+P	-329.63	-19.90	336.65
+P	-97.91	-19.90	363.71
+P	-67.97	-19.90	107.35
 T	60e71bb4e456d449cd47ca75	Intimidator	Prapor	
 O	60e71bb4e456d449cd47ca75	60e8650e5d67b234af3d3926	40	shoot	Eliminate Scavs with headshots
 T	60e71c11d54b755a3b53eb65	Night Sweep	Skier	
@@ -3051,16 +3051,16 @@ O	61904daa7d0d857927447b9c	61904ebb22e6d82ee97ccbbe	1	giveQuestItem	Hand over th
 I	61904daa7d0d857927447b9c	61904ebb22e6d82ee97ccbbe	61904c9df62c89219a56e034
 T	6193850f60b34236ee0483de	Long Road	Skier	
 O	6193850f60b34236ee0483de	6193dabd5f6468204470571f	4	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
-Z	6193850f60b34236ee0483de	6193dabd5f6468204470571f	lighthouse	19.03	7.84	103.99	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
-P	-54.83	-2.16	-296.22
-P	-57.11	-2.16	503.78
-P	92.89	-2.16	504.20
-P	95.17	-2.16	-295.79
 Z	6193850f60b34236ee0483de	6193dabd5f6468204470571f	shoreline	-143.40	-22.00	451.20	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
 P	-898.58	-72.00	271.75
 P	-887.66	-72.00	671.61
 P	611.78	-72.00	630.65
 P	600.86	-72.00	230.79
+Z	6193850f60b34236ee0483de	6193dabd5f6468204470571f	lighthouse	19.03	7.84	103.99	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
+P	-54.83	-2.16	-296.22
+P	-57.11	-2.16	503.78
+P	92.89	-2.16	504.20
+P	95.17	-2.16	-295.79
 T	61958c366726521dd96828ec	Gifts from Tarkov	Peacekeeper	lighthouse
 O	61958c366726521dd96828ec	61958d54aa0f643f9a0aed73	1	mark	Locate and mark the TerraGroup cargo with an MS2000 Marker on Lighthouse
 Z	61958c366726521dd96828ec	61958d54aa0f643f9a0aed73	lighthouse	136.90	0.79	47.89	mark	Locate and mark the TerraGroup cargo with an MS2000 Marker on Lighthouse
@@ -3918,16 +3918,16 @@ P	-52.99	0.58	-68.96
 P	-53.18	0.58	-69.94
 T	657315ddab5a49b71f098853	First in Line	Therapist	sandbox
 O	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	1	visit	Locate the Emercom station on Ground Zero
-Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
-P	143.45	22.52	-90.69
-P	143.45	22.52	-76.49
-P	168.95	22.52	-76.49
-P	168.95	22.52	-90.69
 Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox_high	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
 P	143.45	25.52	-90.69
 P	168.95	25.52	-90.69
 P	168.95	25.52	-76.49
 P	143.45	25.52	-76.49
+Z	657315ddab5a49b71f098853	65732ac3c67dcd96adffa3c7	sandbox	156.20	25.52	-83.59	visit	Locate the Emercom station on Ground Zero
+P	143.45	22.52	-90.69
+P	143.45	22.52	-76.49
+P	168.95	22.52	-76.49
+P	168.95	22.52	-90.69
 O	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	3	giveItem	Hand over any found in raid medicine items
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	590c695186f7741e566b64a2
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	5751a89d24597722aa0e8db0
@@ -3983,40 +3983,40 @@ I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	62a0a043cf4a99369e2624a5
 I	657315ddab5a49b71f098853	65817bf31404f3565aef9fec	619cc01e0a7c3a1a2731940c
 T	657315df034d76585f032e01	Shooting Cans	Prapor	sandbox
 O	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	1	visit	Locate the Utyos machine gun on Ground Zero
-Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
-P	53.10	30.84	127.10
-P	53.10	30.84	134.10
-P	60.10	30.84	134.10
-P	60.10	30.84	127.10
 Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox_high	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
 P	53.10	32.34	127.10
 P	60.10	32.34	127.10
 P	60.10	32.34	134.10
 P	53.10	32.34	134.10
+Z	657315df034d76585f032e01	657333fee3fbaa77d3b5cd7c	sandbox	56.60	32.34	130.60	visit	Locate the Utyos machine gun on Ground Zero
+P	53.10	30.84	127.10
+P	53.10	30.84	134.10
+P	60.10	30.84	134.10
+P	60.10	30.84	127.10
 O	657315df034d76585f032e01	6573340403f471fb2bb12df1	1	visit	Locate the AGS grenade launcher on Ground Zero
-Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
-P	97.27	32.66	273.06
-P	97.27	32.66	279.66
-P	104.82	32.66	279.66
-P	104.82	32.66	273.06
 Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox_high	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
 P	97.27	34.16	273.06
 P	104.82	34.16	273.06
 P	104.82	34.16	279.66
 P	97.27	34.16	279.66
+Z	657315df034d76585f032e01	6573340403f471fb2bb12df1	sandbox	101.04	34.16	276.36	visit	Locate the AGS grenade launcher on Ground Zero
+P	97.27	32.66	273.06
+P	97.27	32.66	279.66
+P	104.82	32.66	279.66
+P	104.82	32.66	273.06
 O	657315df034d76585f032e01	6a54a310b22ea41cf1c54a20	5	shoot	Eliminate any target on Ground Zero
 T	657315e1dccd301f1301416a	Luxurious Life	Prapor	sandbox
 O	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	1	visit	Locate the liquor store on Ground Zero
-Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
-P	105.56	22.73	20.21
-P	105.56	22.73	33.51
-P	128.56	22.73	33.51
-P	128.56	22.73	20.21
 Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox_high	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
 P	105.56	24.23	20.21
 P	128.56	24.23	20.21
 P	128.56	24.23	33.51
 P	105.56	24.23	33.51
+Z	657315e1dccd301f1301416a	6575aa67197bd678a0c3f552	sandbox	117.06	24.23	26.86	visit	Locate the liquor store on Ground Zero
+P	105.56	22.73	20.21
+P	105.56	22.73	33.51
+P	128.56	22.73	33.51
+P	128.56	22.73	20.21
 O	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	1	findQuestItem	Locate and obtain the wine bottle in the store
 Q	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	6582bd252b50c61c565828e2	Bottle of Le Jean wine	sandbox	130.27	23.66	23.69
 Q	657315e1dccd301f1301416a	65817cabba2ba6ef71fc72ca	6582bd252b50c61c565828e2	Bottle of Le Jean wine	sandbox	119.67	23.71	22.89
@@ -4034,38 +4034,38 @@ T	657315e270bb0b8dba00cc48	Burning Rubber	Skier	sandbox
 O	657315e270bb0b8dba00cc48	65733e571b7e7ed95fcd2f0c	1	extract	Use the paid vehicle extraction on Ground Zero
 T	657315e4a6af4ab4b50f3459	Saving the Mole	Mechanic	sandbox
 O	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	1	visit	Access the lab scientist's office on Ground Zero
-Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
-P	-20.28	29.51	44.68
-P	-20.28	29.51	57.98
-P	-6.68	29.51	57.98
-P	-6.68	29.51	44.68
 Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox_high	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
 P	-20.28	31.01	44.68
 P	-6.68	31.01	44.68
 P	-6.68	31.01	57.98
 P	-20.28	31.01	57.98
+Z	657315e4a6af4ab4b50f3459	6575a64d3fc09bdfb38b713d	sandbox	-13.48	31.01	51.33	visit	Access the lab scientist's office on Ground Zero
+P	-20.28	29.51	44.68
+P	-20.28	29.51	57.98
+P	-6.68	29.51	57.98
+P	-6.68	29.51	44.68
 O	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	1	visit	Locate the USEC group at the parking lot of the TerraGroup complex
-Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
-P	-29.01	22.73	-29.10
-P	-29.01	22.73	-21.10
-P	-13.01	22.73	-21.10
-P	-13.01	22.73	-29.10
 Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox_high	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
 P	-29.01	24.23	-29.10
 P	-13.01	24.23	-29.10
 P	-13.01	24.23	-21.10
 P	-29.01	24.23	-21.10
+Z	657315e4a6af4ab4b50f3459	6575a524a39d2be74e620546	sandbox	-21.01	24.23	-25.10	visit	Locate the USEC group at the parking lot of the TerraGroup complex
+P	-29.01	22.73	-29.10
+P	-29.01	22.73	-21.10
+P	-13.01	22.73	-21.10
+P	-13.01	22.73	-29.10
 O	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	1	visit	Locate the lab scientist in the TerraGroup complex
-Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
-P	-62.95	24.12	23.92
-P	-62.95	24.12	30.92
-P	-57.95	24.12	30.92
-P	-57.95	24.12	23.92
 Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox_high	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
 P	-62.95	25.62	23.92
 P	-57.95	25.62	23.92
 P	-57.95	25.62	30.92
 P	-62.95	25.62	30.92
+Z	657315e4a6af4ab4b50f3459	6575a62a62028c6d5cb43cb7	sandbox	-60.45	25.62	27.42	visit	Locate the lab scientist in the TerraGroup complex
+P	-62.95	24.12	23.92
+P	-62.95	24.12	30.92
+P	-57.95	24.12	30.92
+P	-57.95	24.12	23.92
 O	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	1	findQuestItem	Locate and obtain the scientist's hard drive
 Q	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	6575a6ca8778e96ded05a802	TerraGroup scientist's hard drive	sandbox	-12.36	30.69	49.03
 Q	657315e4a6af4ab4b50f3459	65817fbbb454159976c91917	6575a6ca8778e96ded05a802	TerraGroup scientist's hard drive	sandbox	-11.95	30.23	49.59
@@ -4184,16 +4184,16 @@ P	-445.56	0.06	247.52
 I	6578ec473dbd035d04531a8d	6578ec473dbd035d04531a92	5991b51486f77447b112d44f
 T	658027799634223183395339	No Swiping	Skier	shoreline
 O	658027799634223183395339	65802779963422318339533c	10	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
-Z	658027799634223183395339	65802779963422318339533c	shoreline	-591.80	-20.30	-117.70	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
-P	-751.45	-45.30	-364.63
-P	-737.73	-45.30	137.58
-P	-432.14	-45.30	129.23
-P	-445.86	-45.30	-372.98
 Z	658027799634223183395339	65802779963422318339533c	interchange	438.79	32.40	145.60	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
 P	293.29	17.40	-12.15
 P	293.29	17.40	303.35
 P	584.29	17.40	303.35
 P	584.29	17.40	-12.15
+Z	658027799634223183395339	65802779963422318339533c	shoreline	-591.80	-20.30	-117.70	shoot	Eliminate any target at the smuggler bases on Shoreline or Interchange
+P	-751.45	-45.30	-364.63
+P	-737.73	-45.30	137.58
+P	-432.14	-45.30	129.23
+P	-445.86	-45.30	-372.98
 T	65802b627b44fa5e14638899	Nothing Fishy About This	Ragman	shoreline
 O	65802b627b44fa5e14638899	65802b627b44fa5e1463889a	1	visit	Locate Ragman's SUV on Shoreline
 Z	65802b627b44fa5e14638899	65802b627b44fa5e1463889a	shoreline	227.17	-54.91	-159.88	visit	Locate Ragman's SUV on Shoreline
@@ -4314,16 +4314,16 @@ I	66058cbb06ef1d50a60c1f46	6606d08b4e2e27ca2d80085e	657b28d25f444d6dff0c6c77
 I	66058cbb06ef1d50a60c1f46	6606d08b4e2e27ca2d80085e	656f66b5c6baea13cd07e108
 T	66058cbd9f59e625462acc8e	Create a Distraction - Part 1 [PVP ZONE]	Ref	sandbox
 O	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	3	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
-Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
-P	98.96	28.34	138.61
-P	98.96	28.34	157.51
-P	115.96	28.34	157.51
-P	115.96	28.34	138.61
 Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox_high	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
 P	98.96	29.09	138.61
 P	115.96	29.09	138.61
 P	115.96	29.09	157.51
 P	98.96	29.09	157.51
+Z	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	sandbox	107.46	29.09	148.06	plantItem	Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero
+P	98.96	28.34	138.61
+P	98.96	28.34	157.51
+P	115.96	28.34	157.51
+P	115.96	28.34	138.61
 I	66058cbd9f59e625462acc8e	660a9dc64c0927ead4fcfeef	60391b0fb847c71012789415
 T	66058cbf2f19c31a5a1337ec	Create a Distraction - Part 2 [PVP ZONE]	Ref	tarkovstreets
 O	66058cbf2f19c31a5a1337ec	660d5effb318c171fb1ca234	2	shoot	Eliminate Kaban's or Kollontay's guards on Streets of Tarkov
@@ -5013,27 +5013,27 @@ O	669fa3a40c828825de06d6a1	66a0f5a7f9eae6761253114c	30	shoot	Eliminate any targe
 T	66aa58245ab22944110db6e9	New Paths	Peacekeeper	
 O	66aa58245ab22944110db6e9	66aa5be8035c6a410dc570b2	1	extract	Use the transit from Ground Zero to Streets of Tarkov (In one raid)
 O	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	1	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
-Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox	205.37	17.31	36.81	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
-P	177.81	15.81	-50.67
-P	177.81	15.81	124.29
-P	232.94	15.81	124.29
-P	232.94	15.81	-50.67
 Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox_high	172.43	17.31	64.70	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
 P	177.81	17.31	-50.67
 P	232.94	17.31	-50.67
 P	232.94	17.31	124.29
 P	177.81	17.31	124.29
+Z	66aa58245ab22944110db6e9	66aa5b2cecad9c067780924b	sandbox	205.37	17.31	36.81	visit	Scout the intersection of Mira Ave and the overpass on Ground Zero (In one raid)
+P	177.81	15.81	-50.67
+P	177.81	15.81	124.29
+P	232.94	15.81	124.29
+P	232.94	15.81	-50.67
 O	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	1	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
-Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox	227.45	16.99	66.50	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
-P	221.23	15.99	48.74
-P	221.23	15.99	84.26
-P	233.67	15.99	84.26
-P	233.67	15.99	48.74
 Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox_high	222.83	15.99	65.72	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
 P	221.23	16.99	48.74
 P	233.67	16.99	48.74
 P	233.67	16.99	84.26
 P	221.23	16.99	84.26
+Z	66aa58245ab22944110db6e9	66aa5bb281dff8466b076894	sandbox	227.45	16.99	66.50	visit	Locate the passage leading to Streets of Tarkov on Ground Zero (In one raid)
+P	221.23	15.99	48.74
+P	221.23	15.99	84.26
+P	233.67	15.99	84.26
+P	233.67	15.99	48.74
 T	66aa61663aa37705c5024277	Know Your Place!	Ragman	
 O	66aa61663aa37705c5024277	66aa61663aa37705c5024278	5	shoot	Eliminate any target on Streets of Tarkov (In one raid)
 O	66aa61663aa37705c5024277	66aa61663aa37705c502427c	1	extract	Use the transit from Streets of Tarkov to Interchange (In one raid)
@@ -5115,16 +5115,16 @@ P	316.63	7.00	-436.03
 P	363.16	7.00	-438.25
 P	358.02	7.00	-545.84
 O	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	1	visit	Locate the Claymore mine on Ground Zero
-Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox	59.46	24.29	172.85	visit	Locate the Claymore mine on Ground Zero
-P	58.34	23.35	171.05
-P	58.34	23.35	174.65
-P	60.59	23.35	174.65
-P	60.59	23.35	171.05
 Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox_high	60.35	23.74	170.89	visit	Locate the Claymore mine on Ground Zero
 P	58.34	24.29	171.05
 P	60.59	24.29	171.05
 P	60.59	24.29	174.65
 P	58.34	24.29	174.65
+Z	66b38c7bf85b8bf7250f9cb6	66b38de6a97d8cbafd711846	sandbox	59.46	24.29	172.85	visit	Locate the Claymore mine on Ground Zero
+P	58.34	23.35	171.05
+P	58.34	23.35	174.65
+P	60.59	23.35	174.65
+P	60.59	23.35	171.05
 T	66b38e144f2ab7cc530c3fe7	Every Hunter Knows This	Jaeger	
 O	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	1	visit	Locate a good tripwire installation spot in the breach room on Factory
 Z	66b38e144f2ab7cc530c3fe7	66b38e144f2ab7cc530c3fe8	factory4_day	24.47	9.34	38.74	visit	Locate a good tripwire installation spot in the breach room on Factory
@@ -5173,40 +5173,40 @@ P	183.71	1.79	112.39
 P	183.73	1.79	111.12
 I	66d9cbb67b491f9d5304f6e6	66d9cbb67b491f9d5304f6ea	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	1	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox	3.99	24.27	336.33	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
-P	2.14	23.62	334.63
-P	2.14	23.62	338.04
-P	5.83	23.62	338.04
-P	5.83	23.62	334.63
 Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox_high	4.63	23.95	337.25	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
 P	2.14	24.27	334.63
 P	5.83	24.27	334.63
 P	5.83	24.27	338.04
 P	2.14	24.27	338.04
+Z	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	sandbox	3.99	24.27	336.33	plantItem	Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero
+P	2.14	23.62	334.63
+P	2.14	23.62	338.04
+P	5.83	23.62	338.04
+P	5.83	23.62	334.63
 I	66d9cbb67b491f9d5304f6e6	66dad1d7811532f53e472c13	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	1	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox	118.71	24.51	190.58	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
-P	118.11	23.91	190.07
-P	118.11	23.91	191.09
-P	119.30	23.91	191.09
-P	119.30	23.91	190.07
 Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox_high	118.71	24.24	190.30	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
 P	118.11	24.51	190.07
 P	119.30	24.51	190.07
 P	119.30	24.51	191.09
 P	118.11	24.51	191.09
+Z	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	sandbox	118.71	24.51	190.58	plantItem	Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero
+P	118.11	23.91	190.07
+P	118.11	23.91	191.09
+P	119.30	23.91	191.09
+P	119.30	23.91	190.07
 I	66d9cbb67b491f9d5304f6e6	66dad1d941756590432b0eaa	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	1	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
-Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox	40.40	31.68	140.68	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
-P	39.11	31.08	138.40
-P	39.11	31.08	142.96
-P	41.69	31.08	142.96
-P	41.69	31.08	138.40
 Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox_high	41.10	31.41	140.81	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
 P	39.11	31.68	138.40
 P	41.69	31.68	138.40
 P	41.69	31.68	142.96
 P	39.11	31.68	142.96
+Z	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	sandbox	40.40	31.68	140.68	plantItem	Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero
+P	39.11	31.08	138.40
+P	39.11	31.08	142.96
+P	41.69	31.08	142.96
+P	41.69	31.08	138.40
 I	66d9cbb67b491f9d5304f6e6	66dad1dbb16caebe0e214d89	5b4391a586f7745321235ab2
 O	66d9cbb67b491f9d5304f6e6	66dad1ddec53b0df3b10a1b9	1	plantItem	Install a WI-FI Camera by your friend Wilson on Lighthouse
 Z	66d9cbb67b491f9d5304f6e6	66dad1ddec53b0df3b10a1b9	lighthouse	117.14	0.95	-154.49	plantItem	Install a WI-FI Camera by your friend Wilson on Lighthouse
@@ -19778,16 +19778,16 @@ O	676529af9c90953d090882e7	676529af9c90953d090882ea	1	buildWeapon	Modify a PP-19
 O	676529af9c90953d090882e7	67652a2f4f75e1a9543289ed	1	buildWeapon	Modify a Glock 17 to comply with the given specifications
 T	67a09636b8725511260bc421	Shady Contractor	Mechanic	sandbox
 O	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	1	visit	Locate the Knossos LLC senior manager's car on Ground Zero
-Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox	89.19	23.79	224.86	visit	Locate the Knossos LLC senior manager's car on Ground Zero
-P	85.59	20.29	221.36
-P	85.59	20.29	228.36
-P	92.80	20.29	228.36
-P	92.80	20.29	221.36
 Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox_high	55.26	23.79	252.75	visit	Locate the Knossos LLC senior manager's car on Ground Zero
 P	85.59	23.79	221.36
 P	92.80	23.79	221.36
 P	92.80	23.79	228.36
 P	85.59	23.79	228.36
+Z	67a09636b8725511260bc421	67a0a91f4681b4e43d13892b	sandbox	89.19	23.79	224.86	visit	Locate the Knossos LLC senior manager's car on Ground Zero
+P	85.59	20.29	221.36
+P	85.59	20.29	228.36
+P	92.80	20.29	228.36
+P	92.80	20.29	221.36
 O	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	1	findQuestItem	Locate and obtain the manager's diary
 Q	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	679b9a1a4e4ed4b3b40ae5c2	Knossos senior manager's diary	sandbox	89.39	23.64	224.97
 Q	67a09636b8725511260bc421	67a0ab610345d81cb3cbb24c	679b9a1a4e4ed4b3b40ae5c2	Knossos senior manager's diary	sandbox	86.82	23.08	226.10
@@ -19800,16 +19800,16 @@ O	67a09636b8725511260bc421	67a0ab83359e2d00cf9d6b06	1	giveQuestItem	Hand over th
 I	67a09636b8725511260bc421	67a0ab83359e2d00cf9d6b06	679b9a1a4e4ed4b3b40ae5c2
 T	67a0964e972c11a3f507731b	Needle in a Haystack	Mechanic	
 O	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	1	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
-Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox	18.53	23.79	41.01	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
-P	-5.93	18.76	-12.62
-P	-5.93	18.76	94.64
-P	42.99	18.76	94.64
-P	42.99	18.76	-12.62
 Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox_high	-15.40	23.79	68.90	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
 P	-5.93	23.79	-12.62
 P	42.99	23.79	-12.62
 P	42.99	23.79	94.64
 P	-5.93	23.79	94.64
+Z	67a0964e972c11a3f507731b	67a0bc81fcbc1c559d09b58f	sandbox	18.53	23.79	41.01	visit	Investigate the courtyard park by TerraGroup HQ on Ground Zero
+P	-5.93	18.76	-12.62
+P	-5.93	18.76	94.64
+P	42.99	18.76	94.64
+P	42.99	18.76	-12.62
 O	67a0964e972c11a3f507731b	67a0bc83182c4b0c71edd0ce	1	visit	Investigate the kart track on Interchange
 Z	67a0964e972c11a3f507731b	67a0bc83182c4b0c71edd0ce	interchange	159.90	23.40	-246.70	visit	Investigate the kart track on Interchange
 P	129.54	17.35	-281.13
