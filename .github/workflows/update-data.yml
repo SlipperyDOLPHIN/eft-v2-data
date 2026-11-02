@@ -34,17 +34,6 @@ jobs:
 
       - name: Publish if changed
         run: |
-      - name: Build item table
-        run: |
-          mkdir -p build
-          python tools/fetch_items.py build/eft_items.txt
-          python tools/fix_eft_items.py build/eft_items.txt
-
-      - name: Build quest table
-        run: python tools/fetch_quests.py build/eft_quests.txt
-
-      - name: Publish if changed
-        run: |
           cp build/eft_items.txt build/eft_quests.txt data/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
