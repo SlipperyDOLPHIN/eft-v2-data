@@ -2235,7 +2235,7 @@ I	5d25e4b786f77408251c4bfc	5d2f375186f7745916404955	5c94bbff86f7747ee735c08f
 O	5d25e4b786f77408251c4bfc	5d8a09d386f77410b4225d13	2	giveItem	Hand over the items
 I	5d25e4b786f77408251c4bfc	5d8a09d386f77410b4225d13	5c94bbff86f7747ee735c08f
 T	5d25e4ca86f77409dd5cdf2c	Hunting Trip	Jaeger	woods
-O	5d25e4ca86f77409dd5cdf2c	5fd8aa3206fb3a6b8154a2c3	20	shoot	Locate and neutralize Shturman with a headshot from over 40 meters away while using an M700 sniper rifle with the specified scope
+O	5d25e4ca86f77409dd5cdf2c	5fd8aa3206fb3a6b8154a2c3	20	shoot	Locate and neutralize any Boss with a bolt-action rifle
 T	5d25e4d586f77443e625e388	Reserve	Jaeger	rezervbase
 O	5d25e4d586f77443e625e388	5d8a05d086f77410b4225d10	1	visit	Locate the food warehouse on Reserve
 Z	5d25e4d586f77443e625e388	5d8a05d086f77410b4225d10	rezervbase	78.77	-12.29	-117.10	visit	Locate the food warehouse on Reserve
