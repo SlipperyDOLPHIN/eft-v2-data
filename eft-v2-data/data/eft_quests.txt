@@ -3050,7 +3050,7 @@ I	61904daa7d0d857927447b9c	61904e76f62c89219a56e04c	61904c9df62c89219a56e034
 O	61904daa7d0d857927447b9c	61904ebb22e6d82ee97ccbbe	1	giveQuestItem	Hand over the message
 I	61904daa7d0d857927447b9c	61904ebb22e6d82ee97ccbbe	61904c9df62c89219a56e034
 T	6193850f60b34236ee0483de	Long Road	Skier	
-O	6193850f60b34236ee0483de	6193dabd5f6468204470571f	4	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
+O	6193850f60b34236ee0483de	6193dabd5f6468204470571f	7	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
 Z	6193850f60b34236ee0483de	6193dabd5f6468204470571f	shoreline	-143.40	-22.00	451.20	shoot	Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline
 P	-898.58	-72.00	271.75
 P	-887.66	-72.00	671.61
